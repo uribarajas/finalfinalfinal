@@ -1,0 +1,133 @@
+@host= http://localhost:3000
+
+###
+GET {{host}}/api/materias  
+
+###
+POST {{host}}/api/materias
+Content-Type: application/json
+x-auth: Test
+
+{
+    "nombre": "Desarrollo de aplicaciones y servicios web",
+    "codigoClase":"DASW2022",
+    "salon": "T-202",
+    "horario": {
+        "dias": ["Lunes", "Miercoles"], 
+        "horaInicial": "11:00", 
+        "horaFinal": "13:00"
+        },
+    "descripcion": "Esta materia es una materia seriada y se debió llevar antes la materia de Programación Orientada a Objetos",
+    "infoMateria": [{
+        "semestre": "6",
+        "carrera": "Ing. en Sistemas Computacionales"
+    },{
+        "semestre": "7",
+        "carrera": "Ing. en Seguridad Informatica"
+    }],
+    "modalidad": "Presencial",
+    "periodo": "Verano",
+    "año": 2022,
+    "profesor": "Luis Fernando Gutierrez Preciado",
+    "correoProfesor": "lgutierrez@iteso.mx",
+    "descripcionProfesor": "Doctor y maestro en Ciencias con especialidad en Ingeniería Eléctrica por el Centro de Investigación y de Estudios Avanzados (Cinvestav) del Instituto Politécnico Nacional (IPN) en la unidad Guadalajara. Ingeniero en Sistemas Computacionales por la Universidad Autónoma de Aguascalientes.",
+    "requerimientos": true,
+    "materiasRequeridas": ["Programacion con memoria dinamica", "Programacion orientada a objetos"]
+}
+
+
+###
+DELETE {{host}}/api/materias/DASW2022
+x-auth: Test
+
+
+###
+GET {{host}}/api/materias/DASW2022
+
+
+
+
+
+
+
+# 002
+###
+GET {{host}}/api/users
+
+# 003
+###
+POST {{host}}/api/users
+Content-Type: application/json
+x-auth: Test
+
+{
+    "usuario": "720564",
+    "nombre": "Uri",
+    "apellidos": "Barajas Cicourel",
+    "contrasena": "!!12ABcd",
+    "carrera": "Ingenieria en Sistemas Computacionales",
+    "semestre": 6,
+    "materias": "DASW POO PMD",
+    "horarioFuturo":""
+}
+
+#001
+###
+DELETE {{host}}/api/users/720563
+x-auth: Test
+
+# 004
+###
+GET {{host}}/api/users/720563
+
+
+
+
+
+
+###
+PUT {{host}}/api/materias/rXzmcihZfzMpV5DnY_-KR
+Content-Type: application/json
+x-auth: Test
+
+{
+    "horario": {
+        "dias": ["Lunes", "Miercoles"], 
+        "horaInicial": "11:00", 
+        "horaFinal": "13:00"
+    }
+}
+
+
+# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

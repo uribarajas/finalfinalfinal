@@ -1,0 +1,577 @@
+[
+  {
+    "id": "FDCC",
+    "nombre": "Fundamentos de ciencias computacionales",
+    "descripcion": "",
+    "materiasRequeridas": [""],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "1",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "1",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "AYP",
+    "nombre": "Algoritmos y programacion",
+    "descripcion": "",
+    "materiasRequeridas": [""],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "1",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "1",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "IARDC",
+    "nombre": "Introduccion a redes de comútadoras",
+    "descripcion": "",
+    "materiasRequeridas": [""],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "1",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "1",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "CD",
+    "nombre": "Calculo diferencial",
+    "descripcion": "",
+    "materiasRequeridas": [""],
+    "creditos":10,
+    "infoMateria": 
+    [{
+      "semestre": "1",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "1",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "PE",
+    "nombre": "Programacion estructurada",
+    "descripcion": "",
+    "materiasRequeridas": ["AYP"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "2",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "2",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  }
+  ,
+  {
+    "id": "AL",
+    "nombre": "Algebra lineal",
+    "descripcion": "",
+    "materiasRequeridas": [""],
+    "creditos":10,
+    "infoMateria": 
+    [{
+      "semestre": "2",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "2",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "CI",
+    "nombre": "Calculo integral",
+    "descripcion": "",
+    "materiasRequeridas": ["CD"],
+    "creditos":10,
+    "infoMateria": 
+    [{
+      "semestre": "2",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "2",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "IDR",
+    "nombre": "Interconexion de redes",
+    "descripcion": "",
+    "materiasRequeridas": ["IARDC"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "2",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "2",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "PCMD",
+    "nombre": "Programacion con memoria dinamica",
+    "descripcion": "",
+    "materiasRequeridas": ["PE FDCC"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "3",
+      "carrera": "Ing. en Sistemas Computacionales"
+    }]
+  },
+  {
+    "id": "MA",
+    "nombre": "Mecanica analitica",
+    "descripcion": "",
+    "materiasRequeridas": ["CI"],
+    "creditos":10,
+    "infoMateria": 
+    [{
+      "semestre": "3",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "3",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "CM",
+    "nombre": "Calculo multivariable",
+    "descripcion": "",
+    "materiasRequeridas": ["CI"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "3",
+      "carrera": "Ing. en Sistemas Computacionales"
+    }]
+  },
+  {
+    "id": "AYDDP",
+    "nombre": "Analisis y diseño de procesos",
+    "descripcion": "",
+    "materiasRequeridas": [""],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "3",
+      "carrera": "Ing. en Sistemas Computacionales"
+    }]
+  },
+  {
+    "id": "LF",
+    "nombre": "Lenguajes formales",
+    "descripcion": "",
+    "materiasRequeridas": ["PCMD"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "4",
+      "carrera": "Ing. en Sistemas Computacionales"
+    }]
+  },
+  {
+    "id": "POAO",
+    "nombre": "Programacon orientada a objetos",
+    "descripcion": "",
+    "materiasRequeridas": ["PE"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "4",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "3",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "DDBDD",
+    "nombre": "Diseño de bases de datos",
+    "descripcion": "",
+    "materiasRequeridas": ["PE"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "4",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "4",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "AYDSDI",
+    "nombre": "Analisis y diseño de sistemas de informacion",
+    "descripcion": "",
+    "materiasRequeridas": ["AYDDP"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "4",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "6",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "FDSD",
+    "nombre": "Fundamentos de sistemas digitales",
+    "descripcion": "",
+    "materiasRequeridas": [""],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "4",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "4",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "EA",
+    "nombre": "Estrategias algoritmicas",
+    "descripcion": "",
+    "materiasRequeridas": ["PCMD POAO"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "5",
+      "carrera": "Ing. en Sistemas Computacionales"
+    }]
+  },
+  {
+    "id": "PDADE",
+    "nombre": "Programacion de aplicaciones de escritorio",
+    "descripcion": "",
+    "materiasRequeridas": ["DDAYSW"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "6",
+      "carrera": "Ing. en Sistemas Computacionales"
+    }]
+  },
+  {
+    "id": "GDBDD",
+    "nombre": "Gestion de bases de datos",
+    "descripcion": "",
+    "materiasRequeridas": ["DDBDD"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "5",
+      "carrera": "Ing. en Sistemas Computacionales"
+    }]
+  },
+  {
+    "id": "IDSE",
+    "nombre": "Implementacion de sistemas empresariales",
+    "descripcion": "",
+    "materiasRequeridas": ["AYDDSI"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "5",
+      "carrera": "Ing. en Sistemas Computacionales"
+    }]
+  },
+  {
+    "id": "FDMYM",
+    "nombre": "Fundamentos de microprocesadores y microcontroladores",
+    "descripcion": "",
+    "materiasRequeridas": ["FDSD"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "5",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "5",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "PYE",
+    "nombre": "Probabilidad y estadistica",
+    "descripcion": "",
+    "materiasRequeridas": [""],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "6",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "4",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "DDAYSW",
+    "nombre": "Desarrollo de aplicaciones y servicios web",
+    "descripcion": "",
+    "materiasRequeridas": ["DDBDD POAO"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "5",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "5",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "BDDPALTDD",
+    "nombre": "Bases de datos para apoyar la toma de decisiones",
+    "descripcion": "",
+    "materiasRequeridas": ["GDBDD"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "6",
+      "carrera": "Ing. en Sistemas Computacionales"
+    }]
+  },
+  {
+    "id": "SER",
+    "nombre": "Seguridad en redes",
+    "descripcion": "",
+    "materiasRequeridas": ["FDMYM IDR"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "6",
+      "carrera": "Ing. en Sistemas Computacionales"
+    },
+    {
+      "semestre": "3",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "EDRDSDI",
+    "nombre": "Especificacion de requerimientos de sistemas de informacion",
+    "descripcion": "",
+    "materiasRequeridas": ["POAO"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "6",
+      "carrera": "Ing. en Sistemas Computacionales"
+    }]
+  },
+  {
+    "id": "AC",
+    "nombre": "Arquitecturacomputacional",
+    "descripcion": "",
+    "materiasRequeridas": ["FDMYM"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "6",
+      "carrera": "Ing. en Sistemas Computacionales"
+    }]
+  },
+  {
+    "id": "ED",
+    "nombre": "Ecuaciones diferenciales",
+    "descripcion": "",
+    "materiasRequeridas": ["CI"],
+    "creditos":10,
+    "infoMateria": 
+    [{
+      "semestre": "3",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "RA",
+    "nombre": "Ruteo avanzado",
+    "descripcion": "",
+    "materiasRequeridas": ["IDR"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "3",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "RI",
+    "nombre": "Redes inalambricas",
+    "descripcion": "",
+    "materiasRequeridas": ["IDR"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "4",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "SDI",
+    "nombre": "Servicios de internet",
+    "descripcion": "",
+    "materiasRequeridas": ["IDR"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "4",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "ADP",
+    "nombre": "Administracion de proyectos",
+    "descripcion": "",
+    "materiasRequeridas": [""],
+    "creditos":4,
+    "infoMateria": 
+    [{
+      "semestre": "4",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "SDI",
+    "nombre": "Servicios de internet",
+    "descripcion": "",
+    "materiasRequeridas": ["IDR"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "4",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "EYM",
+    "nombre": "Electricidad y magnetismo",
+    "descripcion": "",
+    "materiasRequeridas": ["MA"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "4",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "ADR",
+    "nombre": "Administracion de redes",
+    "descripcion": "",
+    "materiasRequeridas": ["IDR"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "5",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "EYVDS",
+    "nombre": "Etica y vulnerabilidad de sistemas",
+    "descripcion": "",
+    "materiasRequeridas": ["SER"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "5",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "ADSDC",
+    "nombre": "Analisis de señales de comunicacion",
+    "descripcion": "",
+    "materiasRequeridas": ["ED"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "5",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "TYVI",
+    "nombre": "Telefonia y video ip",
+    "descripcion": "",
+    "materiasRequeridas": ["SDI"],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "5",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "IDLC",
+    "nombre": "Internet de las cosas",
+    "descripcion": "",
+    "materiasRequeridas": [""],
+    "creditos":10,
+    "infoMateria": 
+    [{
+      "semestre": "6",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "GDLSI",
+    "nombre": "Gestion de la seguridad informatica",
+    "descripcion": "",
+    "materiasRequeridas": [""],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "6",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  },
+  {
+    "id": "RPSE",
+    "nombre": "Redes para sistemas embebidos",
+    "descripcion": "",
+    "materiasRequeridas": [""],
+    "creditos":8,
+    "infoMateria": 
+    [{
+      "semestre": "6",
+      "carrera": "Ing. en Seguridad Informatica y Redes"
+    }]
+  }
+
+    
+]
